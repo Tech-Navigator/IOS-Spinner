@@ -22,6 +22,12 @@
 		EF9F959318A902FD00A2BA46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EF9F957218A902FD00A2BA46 /* UIKit.framework */; };
 		EF9F959B18A902FD00A2BA46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EF9F959918A902FD00A2BA46 /* InfoPlist.strings */; };
 		EF9F959D18A902FD00A2BA46 /* spinnerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF9F959C18A902FD00A2BA46 /* spinnerTests.m */; };
+		EF9F95AB18A904A700A2BA46 /* lemon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9F95A618A904A700A2BA46 /* lemon.png */; };
+		EF9F95AC18A904A700A2BA46 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9F95A718A904A700A2BA46 /* bar.png */; };
+		EF9F95AD18A904A700A2BA46 /* cherry.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9F95A818A904A700A2BA46 /* cherry.png */; };
+		EF9F95AE18A904A700A2BA46 /* crown.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9F95A918A904A700A2BA46 /* crown.png */; };
+		EF9F95AF18A904A700A2BA46 /* seven.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9F95AA18A904A700A2BA46 /* seven.png */; };
+		EF9F95B118A904CD00A2BA46 /* default-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = EF9F95B018A904CD00A2BA46 /* default-icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +61,12 @@
 		EF9F959818A902FD00A2BA46 /* spinnerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "spinnerTests-Info.plist"; sourceTree = "<group>"; };
 		EF9F959A18A902FD00A2BA46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EF9F959C18A902FD00A2BA46 /* spinnerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = spinnerTests.m; sourceTree = "<group>"; };
+		EF9F95A618A904A700A2BA46 /* lemon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lemon.png; sourceTree = "<group>"; };
+		EF9F95A718A904A700A2BA46 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+		EF9F95A818A904A700A2BA46 /* cherry.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cherry.png; sourceTree = "<group>"; };
+		EF9F95A918A904A700A2BA46 /* crown.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = crown.png; sourceTree = "<group>"; };
+		EF9F95AA18A904A700A2BA46 /* seven.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = seven.png; sourceTree = "<group>"; };
+		EF9F95B018A904CD00A2BA46 /* default-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default-icon.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,12 @@
 		EF9F956218A902FD00A2BA46 = {
 			isa = PBXGroup;
 			children = (
+				EF9F95A618A904A700A2BA46 /* lemon.png */,
+				EF9F95A718A904A700A2BA46 /* bar.png */,
+				EF9F95A818A904A700A2BA46 /* cherry.png */,
+				EF9F95A918A904A700A2BA46 /* crown.png */,
+				EF9F95AA18A904A700A2BA46 /* seven.png */,
+				EF9F95B018A904CD00A2BA46 /* default-icon.png */,
 				EF9F957418A902FD00A2BA46 /* spinner */,
 				EF9F959618A902FD00A2BA46 /* spinnerTests */,
 				EF9F956D18A902FD00A2BA46 /* Frameworks */,
@@ -233,8 +251,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF9F958518A902FD00A2BA46 /* Main_iPad.storyboard in Resources */,
+				EF9F95AF18A904A700A2BA46 /* seven.png in Resources */,
 				EF9F958A18A902FD00A2BA46 /* Images.xcassets in Resources */,
+				EF9F95AB18A904A700A2BA46 /* lemon.png in Resources */,
+				EF9F95AD18A904A700A2BA46 /* cherry.png in Resources */,
+				EF9F95AC18A904A700A2BA46 /* bar.png in Resources */,
+				EF9F95AE18A904A700A2BA46 /* crown.png in Resources */,
 				EF9F958218A902FD00A2BA46 /* Main_iPhone.storyboard in Resources */,
+				EF9F95B118A904CD00A2BA46 /* default-icon.png in Resources */,
 				EF9F957918A902FD00A2BA46 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -396,6 +420,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "spinner/spinner-Prefix.pch";
 				INFOPLIST_FILE = "spinner/spinner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -409,6 +434,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "spinner/spinner-Prefix.pch";
 				INFOPLIST_FILE = "spinner/spinner-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

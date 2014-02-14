@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface TalkViewController : UIViewController
-
+{
+    IBOutlet  UIPickerView *picker;
+      IBOutlet  UIPickerView *picker1;
+      IBOutlet  UIPickerView *picker2;
+}
+@property (nonatomic,retain) NSArray *mainArray;
+- (IBAction)buttonClick:(id)sender;
 @end
